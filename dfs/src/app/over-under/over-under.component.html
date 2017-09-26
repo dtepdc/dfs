@@ -1,0 +1,22 @@
+<table class="table table-striped">
+    <thead class="thead-inverse">
+        <tr>
+            <th sortable-column="homeTeam">Home Team</th>
+            <th sortable-column="vegasLine">Vegas Line</th>
+            <th sortable-column="roadTeam">Road Team</th>
+            <th sortable-column="over.under">O/U</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let stats of over">
+            <td>{{ stats.homeTeam }}</td>
+            <td>{{ stats.vegasLine }}</td>
+            <td>{{ stats.roadTeam }}</td>
+            <td>{{ stats.over.under }}</td>
+        </tr>
+
+    </tbody>
+</table>
+
+<!--<ag-grid-ng2 style="width: 80%; margin-left: 10%" #agGrid class="ag-material" [gridOptions]="myGridOptions">
+</ag-grid-ng2>-->
