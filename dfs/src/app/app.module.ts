@@ -4,7 +4,7 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
 
-// import { AgGridModule } from 'ag-grid-ng2/main';
+import { AgGridModule } from 'ag-grid-angular/main';
 import { OverUnderService } from './over-under/over-under.service';
 import { OverUnderComponent } from './over-under/over-under.component';
 import { DvoaComponent } from './dvoa/dvoa.component';
@@ -18,8 +18,8 @@ import { DvoaComponent } from './dvoa/dvoa.component';
   imports: [
     BrowserModule,
     HttpModule,
-    AppRoutingModule
-    // AgGridModule.forRoot()
+    AppRoutingModule,
+    AgGridModule.withComponents([])
   ],
   providers: [OverUnderService],
   bootstrap: [AppComponent]
