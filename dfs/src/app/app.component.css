@@ -1,16 +1,16 @@
 .navbar {
-    background-color: #F24D29;
+    background-color: #1C366B;
+    border-bottom: 2px solid #F24D29;
+    box-shadow: 0px 5px 5px #E5C4A1;
 }
 
 .navbar a {
-    background-color: #1C366B;
     color: #fff;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: .2em
 }
 
 .navbar a:hover {
-    text-decoration: underline;
-    background-color: #1C366B;
-    color: #fff;
+    background-color: #E5C4A1;
+    color: #1C366B;
 }
