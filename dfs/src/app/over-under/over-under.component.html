@@ -1,24 +1,31 @@
-<!--<table class="table table-striped">
-    <thead class="thead-inverse">
-        <tr>
-            <th sortable-column="homeTeam">Home Team</th>
-            <th sortable-column="vegasLine">Vegas Line</th>
-            <th sortable-column="roadTeam">Road Team</th>
-            <th sortable-column="over.under">O/U</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let stats of over">
-            <td>{{ stats.homeTeam }}</td>
-            <td>{{ stats.vegasLine }}</td>
-            <td>{{ stats.roadTeam }}</td>
-            <td>{{ stats.over.under }}</td>
-        </tr>
+<div class="example-container mat-elevation-z8">
+    <md-table #table [dataSource]="dataSource" class="striped">
 
-    </tbody>
-</table>-->
+        <!-- Position Column -->
+        <ng-container mdColumnDef="homeTeam">
+            <md-header-cell *mdHeaderCellDef> Home Team </md-header-cell>
+            <md-cell *mdCellDef="let data"> {{ data.homeTeam}} </md-cell>
+        </ng-container>
 
-<ag-grid-angular #agGrid style="width: 100%; height: 350px;" class="ag-fresh" [gridOptions]="gridOptions" [columnDefs]="columnDefs" [rowData]="rowData" enableColResize enableSorting enableFilter rowHeight="22" rowSelection="multiple" (modelUpdated)="onModelUpdated()"
-    (cellClicked)="onCellClicked($event)" (cellDoubleClicked)="onCellDoubleClicked($event)">
+        <!-- Name Column -->
+        <ng-container mdColumnDef="vegasLine">
+            <md-header-cell *mdHeaderCellDef> Vegas Line </md-header-cell>
+            <md-cell *mdCellDef="let data"> {{ data.vegasLine}} </md-cell>
+        </ng-container>
 
-</ag-grid-angular>
+        <!-- Weight Column -->
+        <ng-container mdColumnDef="roadTeam">
+            <md-header-cell *mdHeaderCellDef> Road Team </md-header-cell>
+            <md-cell *mdCellDef="let data"> {{ data.roadTeam}} </md-cell>
+        </ng-container>
+
+        <!-- Color Column -->
+        <ng-container mdColumnDef="over.under">
+            <md-header-cell *mdHeaderCellDef> O/U </md-header-cell>
+            <md-cell *mdCellDef="let data"> {{ data.over.under}} </md-cell>
+        </ng-container>
+
+        <md-header-row *mdHeaderRowDef="displayedColumns"></md-header-row>
+        <md-row *mdRowDef="let row; columns: displayedColumns;"></md-row>
+    </md-table>
+</div>

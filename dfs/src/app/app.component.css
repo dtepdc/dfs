@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #F24D29;
+}
+
+.navbar a {
+    background-color: #1C366B;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    background-color: #1C366B;
+    color: #fff;
+}

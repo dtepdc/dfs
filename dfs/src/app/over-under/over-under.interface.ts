@@ -1,7 +1,9 @@
 export interface Over {
     roadTeam: string;
     homeTeam: string;
-    over: string;
-    under: string;
-    stadium: string;
+    vegasLine: string;
+    over: { under: string };
+    date?: string;
+    time?: string;
+    stadium?: string;
 }
