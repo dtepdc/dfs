@@ -1,31 +1,19 @@
-<div class="example-container mat-elevation-z8">
-    <md-table #table [dataSource]="dataSource" class="striped">
+<table class="table">
+    <thead class="table-header">
+        <tr>
+            <th sortable-column="homeTeam">Home Team</th>
+            <th sortable-column="vegasLine">Vegas Line</th>
+            <th sortable-column="roadTeam">Road Team</th>
+            <th sortable-column="over.under">O/U</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let stats of over">
+            <td>{{ stats.homeTeam }}</td>
+            <td>{{ stats.vegasLine }}</td>
+            <td>{{ stats.roadTeam }}</td>
+            <td>{{ stats.over.under }}</td>
+        </tr>
 
-        <!-- Position Column -->
-        <ng-container mdColumnDef="homeTeam">
-            <md-header-cell *mdHeaderCellDef> Home Team </md-header-cell>
-            <md-cell *mdCellDef="let data"> {{ data.homeTeam}} </md-cell>
-        </ng-container>
-
-        <!-- Name Column -->
-        <ng-container mdColumnDef="vegasLine">
-            <md-header-cell *mdHeaderCellDef> Vegas Line </md-header-cell>
-            <md-cell *mdCellDef="let data"> {{ data.vegasLine}} </md-cell>
-        </ng-container>
-
-        <!-- Weight Column -->
-        <ng-container mdColumnDef="roadTeam">
-            <md-header-cell *mdHeaderCellDef> Road Team </md-header-cell>
-            <md-cell *mdCellDef="let data"> {{ data.roadTeam}} </md-cell>
-        </ng-container>
-
-        <!-- Color Column -->
-        <ng-container mdColumnDef="over.under">
-            <md-header-cell *mdHeaderCellDef> O/U </md-header-cell>
-            <md-cell *mdCellDef="let data"> {{ data.over.under}} </md-cell>
-        </ng-container>
-
-        <md-header-row *mdHeaderRowDef="displayedColumns"></md-header-row>
-        <md-row *mdRowDef="let row; columns: displayedColumns;"></md-row>
-    </md-table>
-</div>
+    </tbody>
+</table>
