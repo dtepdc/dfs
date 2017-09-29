@@ -20,12 +20,12 @@
 }
 
 .mat-row:hover {
-    background-color: #1C366B;
+    background-color: #F24D29;
     color: #fff;
 }
 
 .mat-header-row {
-    background-color: #C4CFD0;
+    background-color: #E5C4A1;
     color: #1C366B;
     font-weight: bold;
 }

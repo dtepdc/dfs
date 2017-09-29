@@ -1,16 +1,15 @@
 .navbar {
     background-color: #1C366B;
-    border-bottom: 2px solid #F24D29;
-    box-shadow: 0px 5px 5px #E5C4A1;
+    box-shadow: 0px 5px 5px #999;
 }
 
 .navbar a {
-    color: #fff;
+    color: #C4CFD0;
     font-weight: bold;
     letter-spacing: .2em
 }
 
 .navbar a:hover {
-    background-color: #E5C4A1;
+    background-color: #C4CFD0;
     color: #1C366B;
 }
