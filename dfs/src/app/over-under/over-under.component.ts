@@ -10,10 +10,22 @@ import { Over } from './over-under.interface';
 
 export class OverUnderComponent implements OnInit {
   over;
+  selectedAll;
 
   constructor(private _http: OverUnderService) { }
 
   ngOnInit() {
     this._http.getOverUnder().subscribe(res => this.over = res);
+  }
+
+  selectAll() {
+    for (let i = 0; i < this.over.length; i++) {
+      this.over[i].selected = this.selectedAll;
+    }
+  }
+  checkIfAllSelected() {
+    this.selectedAll = this.over.every(function(item: any) {
+        return item.selected === true;
+      });
   }
 }

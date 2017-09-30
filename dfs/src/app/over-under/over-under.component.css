@@ -1,3 +1,7 @@
+table {
+    overflow: auto;
+}
+
 tr:nth-child(odd) {
     background-color: #fff;
     color: #1C366B;
@@ -17,6 +21,12 @@ thead tr {
     background-color: #C4CFD0;
     color: #1C366B;
     font-weight: bold;
+}
+
+th,
+td {
+    text-align: center;
+    width: 20%;
 }
 
 

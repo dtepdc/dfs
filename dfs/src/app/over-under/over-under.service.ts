@@ -9,6 +9,6 @@ export class OverUnderService {
 
   getOverUnder() {
     return this.http.get('assets/over_under.json')
-        .map(res => res .json());
+        .map(res => res.json());
   }
 }

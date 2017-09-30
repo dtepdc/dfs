@@ -1,14 +1,16 @@
 <table class="table">
     <thead class="table-header">
         <tr>
-            <th sortable-column="homeTeam">Home Team</th>
-            <th sortable-column="vegasLine">Vegas Line</th>
-            <th sortable-column="roadTeam">Road Team</th>
-            <th sortable-column="over.under">O/U</th>
+            <th><input type="checkbox" [(ngModel)]="selectedAll" (change)="selectAll();" /> Select All</th>
+            <th>Home Team</th>
+            <th>Vegas Line</th>
+            <th>Road Team</th>
+            <th>O/U</th>
         </tr>
     </thead>
     <tbody>
         <tr *ngFor="let stats of over">
+            <td><input type="checkbox" [(ngModel)]="stats.selected" (change)="checkIfAllSelected();" /></td>
             <td>{{ stats.homeTeam }}</td>
             <td>{{ stats.vegasLine }}</td>
             <td>{{ stats.roadTeam }}</td>
