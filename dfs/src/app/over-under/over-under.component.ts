@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OverUnderService } from './over-under.service';
 import { Over } from './over-under.interface';
-import { MatTableModule } from '@angular/material';
 
 @Component({
   selector: 'app-over-under',

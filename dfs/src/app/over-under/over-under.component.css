@@ -1,18 +1,11 @@
-.example-container {
-    display: flex;
-    flex-direction: column;
-    max-height: 500px;
-    max-width: 700px;
-}
-
 tr:nth-child(odd) {
-    background-color: #1DACE8;
-    color: #eee;
+    background-color: #fff;
+    color: #1C366B;
 }
 
 tr:nth-child(even) {
-    background-color: #eee;
-    color: #1C366B;
+    background-color: #1DACE8;
+    color: #fff;
 }
 
 tr:hover {
@@ -21,7 +14,7 @@ tr:hover {
 }
 
 thead tr {
-    background-color: #E5C4A1;
+    background-color: #C4CFD0;
     color: #1C366B;
     font-weight: bold;
 }
