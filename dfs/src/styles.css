@@ -3,3 +3,12 @@
 body {
     background-color: #eee;
 }
+
+input[type=checkbox] {
+    display: none;
+}
+
+.mat-checkbox-inner-container {
+    background-color: #fff;
+    color: #1C366B;
+}

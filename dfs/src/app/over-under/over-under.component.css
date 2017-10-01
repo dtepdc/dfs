@@ -8,17 +8,17 @@ tr:nth-child(odd) {
 }
 
 tr:nth-child(even) {
+    background-color: #C4CFD0;
+    color: #1C366B;
+}
+
+tr:hover {
     background-color: #1DACE8;
     color: #fff;
 }
 
-tr:hover {
-    background-color: #F24D29;
-    color: #fff;
-}
-
 thead tr {
-    background-color: #C4CFD0;
+    background-color: #E5C4A1;
     color: #1C366B;
     font-weight: bold;
 }

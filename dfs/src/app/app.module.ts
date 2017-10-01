@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
+import { MatCheckboxModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { OverUnderService } from './over-under/over-under.service';
 import { OverUnderComponent } from './over-under/over-under.component';
@@ -18,7 +19,8 @@ import { DvoaComponent } from './dvoa/dvoa.component';
     BrowserModule,
     HttpModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    MatCheckboxModule
     // AgGridModule.withComponents([])
   ],
   providers: [OverUnderService],
