@@ -9,6 +9,14 @@ input[type=checkbox] {
 }
 
 .mat-checkbox-inner-container {
-    background-color: #fff;
+    background-color: #C0C0C0;
     color: #1C366B;
+    margin: 4px 0 0 0;
+    height: 16px;
+    width: 16px;
 }
+
+
+/*.mat-checkbox-inner-container-no-side-margin {
+    background-color: red;
+}*/
