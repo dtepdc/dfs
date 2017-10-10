@@ -1,25 +1,41 @@
-<table class="table">
-    <thead class="table-header">
-        <tr>
-            <th>
-                <md-checkbox [(ngModel)]="selectedAll" (change)="selectAll();" color="primary"></md-checkbox>
-            </th>
-            <th>Home Team</th>
-            <th>Vegas Line</th>
-            <th>Road Team</th>
-            <th>O/U</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let stats of over">
-            <td>
-                <md-checkbox type="checkbox" [(ngModel)]="stats.selected" (change)="checkIfAllSelected();"></md-checkbox>
-            </td>
-            <td>{{ stats.homeTeam }}</td>
-            <td>{{ stats.vegasLine }}</td>
-            <td>{{ stats.roadTeam }}</td>
-            <td>{{ stats.over.under }}</td>
-        </tr>
+<div id="table">
+    <table class="table">
+        <thead class="table-header">
+            <tr>
+                <th>
+                    <div class="checkbox">
+                        <label>
+                        <input class="checkbox" type="checkbox" [(ngModel)]="selectedAll" (change)="selectAll();" color="primary" />
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    </label>
+                    </div>
+                </th>
+                <th (click)="sortTable('homeTeam')">Home Team</th>
+                <th>Vegas Line</th>
+                <th>Road Team</th>
+                <th>O/U</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let stat of stats | sortStats: 'overUnder'">
+                <td>
+                    <div class="checkbox">
+                        <label>
+						<input type="checkbox" [(ngModel)]="stat.selected" (change)="checkIfAllSelected(); ">
+							<span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+					</label>
+                    </div>
+                </td>
+                <td>{{ stat.homeTeam }}</td>
+                <td>{{ stat.vegasLine }}</td>
+                <td>{{ stat.roadTeam }}</td>
+                <td>{{ stat.overUnder }}</td>
+            </tr>
 
-    </tbody>
-</table>
+        </tbody>
+    </table>
+    <div class="text-right">
+        <div class="text-right">Upon "Submit", data from selected checked teams will appear on the next screen</div>
+        <button type="button" class="submit btn btn-primary">Submit</button>
+    </div>
+</div>

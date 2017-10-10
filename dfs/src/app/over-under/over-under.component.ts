@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { MatCheckboxModule } from '@angular/material';
 import { OverUnderService } from './over-under.service';
-import { Over } from './over-under.interface';
+import { Stats } from './over-under.interface';
 
 @Component({
   selector: 'app-over-under',
@@ -10,22 +9,28 @@ import { Over } from './over-under.interface';
 })
 
 export class OverUnderComponent implements OnInit {
-  over;
+  stats;
   selectedAll;
+  columns;
 
   constructor(private _http: OverUnderService) { }
 
   ngOnInit() {
-    this._http.getOverUnder().subscribe(res => this.over = res);
+    this._http.getOverUnder().subscribe(res => this.stats = res);
+  }
+
+  sortTable(prop: string) {
+    this.columns = this.columns * (-1); // change order
+    return false; // do not reload
   }
 
   selectAll() {
-    for (let i = 0; i < this.over.length; i++) {
-      this.over[i].selected = this.selectedAll;
+    for (let i = 0; i < this.stats.length; i++) {
+      this.stats[i].selected = this.selectedAll;
     }
   }
   checkIfAllSelected() {
-    this.selectedAll = this.over.every(function(item: any) {
+    this.selectedAll = this.stats.every(function(item: any) {
         return item.selected === true;
       });
   }

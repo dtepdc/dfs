@@ -1,3 +1,53 @@
-<p>
-  dvoa works!
-</p>
+<div id="table">
+    <table class="table">
+        <thead class="table-header">
+            <tr>
+                <th>
+                    <div class="checkbox">
+                        <label>
+                        <input class="checkbox" type="checkbox" [(ngModel)]="selectedAll" (change)="selectAll();" color="primary" />
+                        <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                    </label>
+                    </div>
+                </th>
+                <th>Offense</th>
+                <th>Spread</th>
+                <th>Implied Points</th>
+                <th>DVOA</th>
+                <th>Pass</th>
+                <th>Rush</th>
+                <th>RB - Pass</th>
+                <th>WR1</th>
+                <th>WR2</th>
+                <th>TE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let stat of stats | sortStats: 'overUnder'">
+                <td>
+                    <div class="checkbox">
+                        <label>
+						<input type="checkbox" [(ngModel)]="stat.selected" (change)="checkIfAllSelected(); ">
+							<span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+					</label>
+                    </div>
+                </td>
+                <td>{{ stat.offense }}</td>
+                <td>{{ stat.spread }}</td>
+                <td>{{ stat.implied }}</td>
+                <td>{{ stat.dvoa }}</td>
+                <td>{{ stat.pass }}</td>
+                <td>{{ stat. rush }}</td>
+                <td>{{ stat.rbPa }}</td>
+                <td>{{ stat.wrOne }}</td>
+                <td>{{ stat.wrTwo }}</td>
+                <td>{{ stat.te }}</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <div class="text-right">
+        <div class="text-right">Upon "Submit", data from selected checked teams will appear on the next screen</div>
+        <button type="button" class="submit btn btn-primary">Submit</button>
+    </div>
+</div>

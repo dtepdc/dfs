@@ -1,0 +1,65 @@
+[{
+        "team": "Detroit",
+        "turnovers": 2.75
+    },
+    {
+        "team": "Baltimore",
+        "turnovers": 2.75
+    },
+    {
+        "team": "Jacksonville",
+        "turnovers": 2.5
+    },
+    {
+        "team": "Buffalo",
+        "turnovers": 1.75
+    },
+    {
+        "team": "Pittsburgh",
+        "turnovers": 1.75
+    },
+    {
+        "team": "Houston",
+        "turnovers": 1.75
+    },
+    {
+        "team": "Washington",
+        "turnovers": 1.75
+    },
+    {
+        "team": "Philadelphia",
+        "turnovers": 1.75
+    },
+    {
+        "team": "LA Rams",
+        "turnovers": 1.75
+    },
+    {
+        "team": "Indianapolis",
+        "turnovers": 1.75
+    },
+    {
+        "team": "Kansas City",
+        "turnovers": 1.5
+    },
+    {
+        "team": "Green Bay",
+        "turnovers": 1.5
+    },
+    {
+        "team": "League Average",
+        "turnovers": 1.27
+    },
+    {
+        "team": "San Francisco",
+        "turnovers": 1.25
+    },
+    {
+        "team": "Cleveland",
+        "turnovers": 1.25
+    },
+    {
+        "team": "New England",
+        "turnovers": 1.25
+    }
+]

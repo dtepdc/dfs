@@ -1,161 +1,127 @@
 [{
-    "roadTeam": "LAR",
-    "homeTeam": "SF",
-    "vegasLine": "2.0",
-    "over": {
-        "under": "40"
+        "roadTeam": "Philadelphia Eagles",
+        "homeTeam": "Carolina Panthers",
+        "vegasLine": "-3.5",
+        "overUnder": 46,
+        "date": "Thursday",
+        "time": "8:25 PM",
+        "stadium": "Bank of America Stadium"
     },
-    "date": "Thursday",
-    "time": "8:25 PM",
-    "stadium": "Levi’s stadium"
-}, {
-    "roadTeam": "BAL",
-    "homeTeam": "JAC",
-    "vegasLine": "4.0",
-    "over": {
-        "under": "39.5"
+    {
+        "roadTeam": "Chicago Bears",
+        "homeTeam": "Baltimore Ravens",
+        "vegasLine": "-7.0",
+        "overUnder": 41.5,
+        "date": "Sunday",
+        "time": "1:00 PM",
+        "stadium": "M&T Bank Stadium"
     },
-    "date": "Sunday",
-    "time": "9:30 AM",
-    "stadium": "Wembley stadium"
-}, {
-    "roadTeam": "ATL",
-    "homeTeam": "DET",
-    "vegasLine": "3.0",
-    "over": {
-        "under": "50"
+    {
+        "roadTeam": "Cleveland Browns",
+        "homeTeam": "Houston Texans",
+        "vegasLine": "-9.5",
+        "overUnder": 44.5,
+        "date": "Sunday",
+        "time": "1:00 PM",
+        "stadium": "NRG Stadium"
     },
-    "date": "Sunday",
-    "time": "1:00 PM",
-    "stadium": "Ford Field"
-}, {
-    "roadTeam": "CLE",
-    "homeTeam": "IND",
-    "vegasLine": "1.0",
-    "over": {
-        "under": "40.5"
+    {
+        "roadTeam": "Detroit Lions",
+        "homeTeam": "New Orleans Saints",
+        "vegasLine": -4,
+        "overUnder": 51,
+        "date": "Sunday",
+        "time": "1:00 PM",
+        "stadium": "Mercedes-Benz Superdome"
     },
-    "date": "Sunday",
-    "time": "1:00 PM",
-    "stadium": "Lucas Oil stadium"
-}, {
-    "roadTeam": "DEN",
-    "homeTeam": "BUF",
-    "vegasLine": "3.0",
-    "over": {
-        "under": "40"
+    {
+        "roadTeam": "Green Bay Packers",
+        "homeTeam": "Minnesota Vikings",
+        "vegasLine": 0.5,
+        "overUnder": "TBD",
+        "date": "Sunday",
+        "time": "1:00 PM",
+        "stadium": "U.S. Bank Stadium"
     },
-    "date": "Sunday",
-    "time": "1:00 PM",
-    "stadium": "New Era Field"
-}, {
-    "roadTeam": "HOU",
-    "homeTeam": "NEP",
-    "vegasLine": "-13.0",
-    "over": {
-        "under": "43.5"
+    {
+        "roadTeam": "Miami Dolphins",
+        "homeTeam": "Atlanta Falcons",
+        "vegasLine": "-11.0",
+        "overUnder": 47,
+        "date": "Sunday",
+        "time": "1:00 PM",
+        "stadium": "Mercedes-Benz Stadium"
     },
-    "date": "Sunday",
-    "time": "1:00 PM",
-    "stadium": "Gillette stadium"
-}, {
-    "roadTeam": "MIA",
-    "homeTeam": "NYJ",
-    "vegasLine": "6.0",
-    "over": {
-        "under": "41.5"
+    {
+        "roadTeam": "New England Patriots",
+        "homeTeam": "New York Jets",
+        "vegasLine": 9.5,
+        "overUnder": 47.5,
+        "date": "Sunday",
+        "time": "1:00 PM",
+        "stadium": "MetLife Stadium"
     },
-    "date": "Sunday",
-    "time": "1:00 PM",
-    "stadium": "MetLife stadium"
-}, {
-    "roadTeam": "NO",
-    "homeTeam": "CAR",
-    "vegasLine": "-6.0",
-    "over": {
-        "under": "48"
+    {
+        "roadTeam": "San Francisco 49ers",
+        "homeTeam": "Washington Redskins",
+        "vegasLine": "-9.5",
+        "overUnder": 46.5,
+        "date": "Sunday",
+        "time": "1:00 PM",
+        "stadium": "FedEx Field"
     },
-    "date": "Sunday",
-    "time": "1:00 PM",
-    "stadium": "Bank of America stadium"
-}, {
-    "roadTeam": "NYG",
-    "homeTeam": "PHI",
-    "vegasLine": "-5.0",
-    "over": {
-        "under": "44"
+    {
+        "roadTeam": "Los Angeles Rams",
+        "homeTeam": "Jacksonville Jaguars",
+        "vegasLine": "-2.5",
+        "overUnder": 43.5,
+        "date": "Sunday",
+        "time": "4:05 PM",
+        "stadium": "EverBank Field"
     },
-    "date": "Sunday",
-    "time": "1:00 PM",
-    "stadium": "Lincoln Financial Field"
-}, {
-    "roadTeam": "PIT",
-    "homeTeam": "CHI",
-    "vegasLine": "7.5",
-    "over": {
-        "under": "45.5"
+    {
+        "roadTeam": "Tampa Bay Buccaneers",
+        "homeTeam": "Arizona Cardinals",
+        "vegasLine": -2,
+        "overUnder": 44.5,
+        "date": "Sunday",
+        "time": "4:05 PM",
+        "stadium": "University of Phoenix Stadium"
     },
-    "date": "Sunday",
-    "time": "1:00 PM",
-    "stadium": "Soldier Field"
-}, {
-    "roadTeam": "TBB",
-    "homeTeam": "MIN",
-    "vegasLine": "TBD",
-    "over": {
-        "under": "TBD"
+    {
+        "roadTeam": "Los Angeles Chargers",
+        "homeTeam": "Oakland Raiders",
+        "vegasLine": 0.5,
+        "overUnder": "TBD",
+        "date": "Sunday",
+        "time": "4:25 PM",
+        "stadium": "Oakland–Alameda County Coliseum"
     },
-    "date": "Sunday",
-    "time": "1:00 PM",
-    "stadium": "U.S. Bank stadium"
-}, {
-    "roadTeam": "SEA",
-    "homeTeam": "TEN",
-    "vegasLine": "-2.5",
-    "over": {
-        "under": "43"
+    {
+        "roadTeam": "Pittsburgh Steelers",
+        "homeTeam": "Kansas City Chiefs",
+        "vegasLine": -4,
+        "overUnder": 46,
+        "date": "Sunday",
+        "time": "4:25 PM",
+        "stadium": "Arrowhead Stadium"
     },
-    "date": "Sunday",
-    "time": "4:05 PM",
-    "stadium": "Nissan stadium"
-}, {
-    "roadTeam": "CIN",
-    "homeTeam": "GBP",
-    "vegasLine": "-9.0",
-    "over": {
-        "under": "45"
+    {
+        "roadTeam": "New York Giants",
+        "homeTeam": "Denver Broncos",
+        "vegasLine": "-12.0",
+        "overUnder": 40.5,
+        "date": "Sunday",
+        "time": "8:30 PM",
+        "stadium": "Sports Authority Field"
     },
-    "date": "Sunday",
-    "time": "4:25 PM",
-    "stadium": "Lambeau Field"
-}, {
-    "roadTeam": "KCC",
-    "homeTeam": "LAC",
-    "vegasLine": "3.0",
-    "over": {
-        "under": "45.5"
-    },
-    "date": "Sunday",
-    "time": "4:25 PM",
-    "stadium": "StubHub Center"
-}, {
-    "roadTeam": "OAK",
-    "homeTeam": "WAS",
-    "vegasLine": "3.0",
-    "over": {
-        "under": "54"
-    },
-    "date": "Sunday",
-    "time": "8:30 PM",
-    "stadium": "FedEx Field"
-}, {
-    "roadTeam": "DAL",
-    "homeTeam": "ARI",
-    "vegasLine": "3.0",
-    "over": {
-        "under": "47"
-    },
-    "date": "Monday",
-    "time": "8:30 PM",
-    "stadium": "University of Phoenix stadium"
-}]
+    {
+        "roadTeam": "Indianapolis Colts",
+        "homeTeam": "Tennessee Titans",
+        "vegasLine": 0.5,
+        "overUnder": "TBD",
+        "date": "Monday",
+        "time": "8:30 PM",
+        "stadium": "Nissan Stadium"
+    }
+]

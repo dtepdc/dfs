@@ -1,20 +1,25 @@
-table {
+/*.table {
     overflow: auto;
+    margin-bottom: 10px;
+}
+
+button.submit {
+    margin-top: 5px;
 }
 
 tr:nth-child(odd) {
-    background-color: #fff;
+    background-color: #eee;
     color: #1C366B;
 }
 
 tr:nth-child(even) {
-    background-color: #C4CFD0;
-    color: #1C366B;
+    background-color: #1DACE8;
+    color: #fff;
 }
 
 tr:hover {
-    background-color: #1DACE8;
-    color: #fff;
+    background-color: #C4CFD0;
+    color: #1C3668;
 }
 
 thead tr {
@@ -27,7 +32,7 @@ th,
 td {
     text-align: center;
     width: 20%;
-}
+}*/
 
 
 /* Wes Anderson Color Palette - The Life Aquatic
