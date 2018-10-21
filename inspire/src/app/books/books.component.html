@@ -1,0 +1,18 @@
+<div><b>Author</b>: {{ book.author }}</div>
+<div><b>Birthday</b>: {{ book.birthday }}</div>
+<div><b>Birth Place</b>: {{ book.birthPlace }}</div>
+
+<table>
+    <tr>
+        <th>Image</th>
+        <th>Title</th>
+        <th>Publish date</th>
+    </tr>
+    <tr *ngFor="let b of book">
+        <td>
+            {{b.imageUrl }}
+        </td>
+        <td>{{ b.title }}</td>
+        <td>{{ b.PublishDate }}}</td>
+    </tr>
+</table>

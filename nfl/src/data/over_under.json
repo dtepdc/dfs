@@ -1,0 +1,194 @@
+[
+ {
+   "Road Team": "Los Angeles Rams",
+   "FIELD2": "at",
+   "Home Team": "San Francisco 49ers",
+   "Vegas Line": "LAR -2.0",
+   "Over": {
+      "Under": "40"
+   },
+   "Date": "Thursday",
+   "Time": "8:25 PM",
+   "Stadium": "Levi’s Stadium"
+},
+ {
+   "Road Team": "Baltimore Ravens",
+   "FIELD2": "at",
+   "Home Team": "Jacksonville Jaguars",
+   "Vegas Line": "BAL -4.0",
+   "Over": {
+      "Under": "39.5"
+   },
+   "Date": "Sunday",
+   "Time": "9:30 AM",
+   "Stadium": "Wembley Stadium"
+},
+ {
+   "Road Team": "Atlanta Falcons",
+   "FIELD2": "at",
+   "Home Team": "Detroit Lions",
+   "Vegas Line": "ATL -3.0",
+   "Over": {
+      "Under": "50"
+   },
+   "Date": "Sunday",
+   "Time": "1:00 PM",
+   "Stadium": "Ford Field"
+},
+ {
+   "Road Team": "Cleveland Browns",
+   "FIELD2": "at",
+   "Home Team": "Indianapolis Colts",
+   "Vegas Line": "CLE -1.0",
+   "Over": {
+      "Under": "40.5"
+   },
+   "Date": "Sunday",
+   "Time": "1:00 PM",
+   "Stadium": "Lucas Oil Stadium"
+},
+ {
+   "Road Team": "Denver Broncos",
+   "FIELD2": "at",
+   "Home Team": "Buffalo Bills",
+   "Vegas Line": "DEN -3.0",
+   "Over": {
+      "Under": "40"
+   },
+   "Date": "Sunday",
+   "Time": "1:00 PM",
+   "Stadium": "New Era Field"
+},
+ {
+   "Road Team": "Houston Texans",
+   "FIELD2": "at",
+   "Home Team": "New England Patriots",
+   "Vegas Line": "NE -13.0",
+   "Over": {
+      "Under": "43.5"
+   },
+   "Date": "Sunday",
+   "Time": "1:00 PM",
+   "Stadium": "Gillette Stadium"
+},
+ {
+   "Road Team": "Miami Dolphins",
+   "FIELD2": "at",
+   "Home Team": "New York Jets",
+   "Vegas Line": "MIA -6.0",
+   "Over": {
+      "Under": "41.5"
+   },
+   "Date": "Sunday",
+   "Time": "1:00 PM",
+   "Stadium": "MetLife Stadium"
+},
+ {
+   "Road Team": "New Orleans Saints",
+   "FIELD2": "at",
+   "Home Team": "Carolina Panthers",
+   "Vegas Line": "CAR -6.0",
+   "Over": {
+      "Under": "48"
+   },
+   "Date": "Sunday",
+   "Time": "1:00 PM",
+   "Stadium": "Bank of America Stadium"
+},
+ {
+   "Road Team": "New York Giants",
+   "FIELD2": "at",
+   "Home Team": "Philadelphia Eagles",
+   "Vegas Line": "PHI -5.0",
+   "Over": {
+      "Under": "44"
+   },
+   "Date": "Sunday",
+   "Time": "1:00 PM",
+   "Stadium": "Lincoln Financial Field"
+},
+ {
+   "Road Team": "Pittsburgh Steelers",
+   "FIELD2": "at",
+   "Home Team": "Chicago Bears",
+   "Vegas Line": "PIT -7.5",
+   "Over": {
+      "Under": "45.5"
+   },
+   "Date": "Sunday",
+   "Time": "1:00 PM",
+   "Stadium": "Soldier Field"
+},
+ {
+   "Road Team": "Tampa Bay Buccaneers",
+   "FIELD2": "at",
+   "Home Team": "Minnesota Vikings",
+   "Vegas Line": "TBD",
+   "Over": {
+      "Under": "TBD"
+   },
+   "Date": "Sunday",
+   "Time": "1:00 PM",
+   "Stadium": "U.S. Bank Stadium"
+},
+ {
+   "Road Team": "Seattle Seahawks",
+   "FIELD2": "at",
+   "Home Team": "Tennessee Titans",
+   "Vegas Line": "TEN -2.5",
+   "Over": {
+      "Under": "43"
+   },
+   "Date": "Sunday",
+   "Time": "4:05 PM",
+   "Stadium": "Nissan Stadium"
+},
+ {
+   "Road Team": "Cincinnati Bengals",
+   "FIELD2": "at",
+   "Home Team": "Green Bay Packers",
+   "Vegas Line": "GB -9.0",
+   "Over": {
+      "Under": "45"
+   },
+   "Date": "Sunday",
+   "Time": "4:25 PM",
+   "Stadium": "Lambeau Field"
+},
+ {
+   "Road Team": "Kansas City Chiefs",
+   "FIELD2": "at",
+   "Home Team": "Los Angeles Chargers",
+   "Vegas Line": "KC -3.0",
+   "Over": {
+      "Under": "45.5"
+   },
+   "Date": "Sunday",
+   "Time": "4:25 PM",
+   "Stadium": "StubHub Center"
+},
+ {
+   "Road Team": "Oakland Raiders",
+   "FIELD2": "at",
+   "Home Team": "Washington Redskins",
+   "Vegas Line": "OAK -3.0",
+   "Over": {
+      "Under": "54"
+   },
+   "Date": "Sunday",
+   "Time": "8:30 PM",
+   "Stadium": "FedEx Field"
+},
+ {
+   "Road Team": "Dallas Cowboys",
+   "FIELD2": "at",
+   "Home Team": "Arizona Cardinals",
+   "Vegas Line": "DAL -3.0",
+   "Over": {
+      "Under": "47"
+   },
+   "Date": "Monday",
+   "Time": "8:30 PM",
+   "Stadium": "University of Phoenix Stadium"
+}
+]
