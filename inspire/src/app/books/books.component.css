@@ -1,4 +1,14 @@
-div {
-    font: 13px arial;
+.authorInfo {
+    font: 14px arial;
     line-height: 1.3em;
+    margin: 15px;
+}
+
+.card-body {
+    background-color: #eee;
+}
+
+.card {
+    width: 218px;
+    margin-bottom: 15px;
 }

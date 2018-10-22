@@ -1,4 +1,4 @@
-export interface Book {
+export class Book {
     author: string;
     birthday: string;
     birthPlace: string;
